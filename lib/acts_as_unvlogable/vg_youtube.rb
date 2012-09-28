@@ -20,7 +20,7 @@ class VgYoutube
   end
   
   def thumbnail
-    @details.thumbnails.first.url
+    @details.thumbnails.second.url
   end
   
   def duration
